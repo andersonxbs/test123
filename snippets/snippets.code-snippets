@@ -1,1 +1,54 @@
-{}
+{
+    "Swagger Documentation": {
+      "scope": "javascript,typescript",
+      "prefix": "sdoc",
+      "body": [
+        "/**",
+        " * @swagger",
+        " * /route:",
+        " *   httpVerb:",
+        " *     description: short description",
+        " *     tags: [controllerName]",
+        " *     produces:",
+        " *       - application/json",
+        " *     requestBody:",
+        " *       required: true",
+        " *       content:",
+        " *          application/json:",
+        " *            schema:",
+        " *              type: object",
+        " *              required:",
+        " *                - first_name",
+        " *                - email",
+        " *              properties:",
+        " *                first_name:",
+        " *                  type: string",
+        " *                email:",
+        " *                  type: string",
+        " *                zipcode:",
+        " *                  type: string",
+        " *     responses:",
+        " *       200:",
+        " *         description: short description",
+        " *         content:",  // Response body
+        " *           application/json:", //'' # Media type
+        " *             schema:", //         # Must-have
+        " *               type: object",//   # Data type
+        " *               properties:", 
+        " *                 success:",
+        " *                   type: boolean",
+        " *                 data:",
+        " *                   type: string",
+        " *                 warning:", 
+        " *                   type: object",
+        " *               example:       # Sample data",
+        " *                   success: true",
+        " *                   data: usuário cadastrado com sucesso",
+        " *                   warnings: []",
+        " */"
+      ],
+      "description": "Create Swagger API Documentation structure"
+    }
+  }
+  
+  

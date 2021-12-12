@@ -6,6 +6,10 @@
     "engines": {
         "vscode": "^1.63.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:andersonxbs/test123.git"
+    },
     "categories": [
         "Snippets"
     ],
@@ -13,6 +17,10 @@
         "snippets": [
             {
                 "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
